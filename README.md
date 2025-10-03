@@ -6,45 +6,18 @@
 Documentación UML no oficial sobre temas del SII de Chile.
 
 
+| Link oficial | Diagramas |
+| --- | --- |
+| [https://www.sii.cl/preguntas_frecuentes/catastro/001_012_2020.htm](https://www.sii.cl/preguntas_frecuentes/catastro/001_012_2020.htm) | [CAFs](CAFs) | 
+| [https://www.sii.cl/factura_electronica/factura_mercado/instructivo_emision.pdf](https://www.sii.cl/factura_electronica/factura_mercado/instructivo_emision.pdf) | [instructivo_técnico_factura_electrónica](instructivo_técnico_factura_electrónica) | 
 
+
+
+
+# External Links
+
+* [https://en.wikipedia.org/wiki/Unified_Modeling_Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 * [https://mermaid.js.org](https://mermaid.js.org)
 * [https://www.sii.cl/](https://www.sii.cl/)
 
-
-# CAFs
-
-```mermaid
-sequenceDiagram
-
-    actor       Contribuyente as Contribuyente<br/>Emisor
-    participant SII
-
-    Contribuyente->>SII: Solicita folios
-    activate SII
-    
-    SII->>Contribuyente: Entrega archivo "Código de Autorización de Folios (CAF)"
-    deactivate SII
-
-```
-
-Ejemplo
-
-```mermaid
-sequenceDiagram
-
-    actor       Contribuyente as Contribuyente<br/>Emisor
-    participant SII
-
-    Contribuyente->>SII: Solicita folios 1000 folios para Facturas Electrónicas
-    activate SII
-    
-    SII->>Contribuyente: CAF que se debe utilizar sólo para las Facturas Electrónicas desde el rango 501 al 1500
-
-    SII->>Contribuyente: Clave privada que utilizará para timbrar electrónicamente las facturas, desde el rango 501 al 1500
-    
-    deactivate SII
-
-```
-
-Fuente: [https://www.sii.cl/preguntas_frecuentes/catastro/001_012_2020.htm](https://www.sii.cl/preguntas_frecuentes/catastro/001_012_2020.htm)
 
