@@ -14,7 +14,7 @@ Documentación UML no oficial sobre temas del SII de Chile.
 ```mermaid
 sequenceDiagram
 
-    actor       "Contribuyente\nEmisor" as Contribuyente
+    actor       Contribuyente as "Contribuyente<br/>Emisor"
     participant SII
 
     Contribuyente->>SII: Solicita folios
