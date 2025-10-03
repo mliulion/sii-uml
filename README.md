@@ -13,13 +13,13 @@ Documentación UML no oficial sobre temas del SII de Chile.
 
 ```mermaid
 sequenceDiagram
+
     actor       "Contribuyente\nEmisor" as Contribuyente
     participant SII
 
-    Alice->>Bob: Hola Bob, ¿cómo estás?
-    Bob-->>Alice: Todo bien, gracias
     Contribuyente ->> SII : Solicita folios
     activate SII
+    
     SII ->> Contribuyente : Entrega archivo "Código de Autorización de Folios (CAF)"
     deactivate SII
 
