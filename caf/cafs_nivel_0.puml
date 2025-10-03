@@ -4,6 +4,5 @@ participant SII
 
 Contribuyente -> SII : Solicita folios
 SII -> Contribuyente : Entrega archivo "Código de Autorización de Folios (CAF)"
-SII -> Contribuyente : Una clave privada que utilizará para timbrar electrónicamente las facturas, desde el rango 501 al 1500
 @enduml
 

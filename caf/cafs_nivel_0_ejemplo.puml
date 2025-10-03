@@ -4,5 +4,6 @@ participant SII
 
 Contribuyente -> SII : Solicita 1000 folios para Facturas Electrónicas
 SII -> Contribuyente : Un CAF desde el rango 501 al 1500
+SII -> Contribuyente : Una clave privada que utilizará para timbrar electrónicamente las facturas, desde el rango 501 al 1500
 @enduml
 
