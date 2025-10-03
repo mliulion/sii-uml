@@ -5,6 +5,8 @@
 
 Documentación UML no oficial sobre temas del SII de Chile.
 
+🚧 EN CONSTRUCCION 🚧
+
 
 | Link oficial | Diagramas |
 | --- | --- |
