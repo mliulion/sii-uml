@@ -6,6 +6,8 @@ DTE = Documento Tributario Electrónico
 
 ## Actividades Previas a la Emisión de Documentos
 
+
+
 ```mermaid
 sequenceDiagram
 
@@ -36,17 +38,34 @@ sequenceDiagram
     deactivate SII
 
     Firmante->>SII:  Solicita números de folios para generar DTEs válidos
+    activate SII
+    deactivate SII
 
     Administrador->>SII:  Solicitar la anulación de folios previamente autorizados
+    activate SII
+    deactivate SII
 
     Firmante->>SII:  Firmar documentos tributarios electrónicos
+    activate SII
+    deactivate SII
+
     Firmante->>SII:  Enviar documentos emitidos al SII
+    activate SII
+    deactivate SII
 
     Note over Representante: Adquiere certificados digitales para los firmantes autorizados
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     Note left of Representante: Obtención de rango de folios autorizados y Código de Autorización de Folios
+
+    Firmante->>SII:  Solicita números de folios para generar DTEs válidos
+    activate SII
+    SII-->>Firmante: CAF
+    deactivate SII
+
+
+
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     Note left of Representante: Verificaciones al "Código de Autorización de Folios"
