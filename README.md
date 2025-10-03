@@ -1,3 +1,13 @@
-# sii-uml
-Documentación UML sobre el SII de Chile
-![Diagrama](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mliulion/sii-uml/main/bla.puml)
+[[_TOC_]]
+
+# SII-UML
+
+Documentación UML no oficial sobre temas del SII de Chile.
+
+* [https://plantuml.com/](https://plantuml.com/)
+* [https://www.sii.cl/](https://www.sii.cl/)
+
+
+
+
+
