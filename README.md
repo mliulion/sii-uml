@@ -17,10 +17,10 @@ sequenceDiagram
     actor       "Contribuyente\nEmisor" as Contribuyente
     participant SII
 
-    Contribuyente ->> SII : Solicita folios
+    Contribuyente->>SII: Solicita folios
     activate SII
     
-    SII ->> Contribuyente : Entrega archivo "Código de Autorización de Folios (CAF)"
+    SII->>Contribuyente: Entrega archivo "Código de Autorización de Folios (CAF)"
     deactivate SII
 
 
